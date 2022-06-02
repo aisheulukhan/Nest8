@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JmhusyswmpHxpFLqSqq1yLUg8sGqET1GSiEgXxhnRW+rGFT4Uvx95jHRiG1ouFmn3zmB5Q1g+p0OWX4naSkCXQ==",
+  "dgSpecHash": "jw95XJmuTfsRJXPiHlMZWRPuu61ZgzUika+FYeEkm8XrJtAn0+igSDqQ6dV4SU572dgsXbCqy5Av3svlQ5CMKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
+  "projectFilePath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tu7hnsxs1\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\tu7hnsxs1\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

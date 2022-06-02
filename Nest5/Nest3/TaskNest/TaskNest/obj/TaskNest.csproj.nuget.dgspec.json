@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj": {}
+    "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj": {
+    "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
+        "projectUniqueName": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
         "projectName": "TaskNest",
-        "projectPath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
+        "projectPath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\TaskNest.csproj",
         "packagesPath": "C:\\Users\\tu7hnsxs1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest7New\\Nest5\\Nest3\\TaskNest\\TaskNest\\obj\\",
+        "outputPath": "C:\\Users\\tu7hnsxs1\\Desktop\\Nest8\\Nest5\\Nest3\\TaskNest\\TaskNest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
