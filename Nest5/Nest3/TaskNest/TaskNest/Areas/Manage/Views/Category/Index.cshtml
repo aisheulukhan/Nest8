@@ -129,7 +129,7 @@
                                             <a href="#" data-bs-toggle="dropdown" class="btn btn-light rounded btn-sm font-sm"> <i class="material-icons md-more_horiz"></i> </a>
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="#">View detail</a>
-                                                <a class="dropdown-item" href="#">Edit info</a>
+                                                <a class="dropdown-item" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id">Edit info</a>
                                                 <a class="dropdown-item text-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                                                 <a class="dropdown-item text-danger" asp-controller="Category" asp-action="Remove" asp-route-id="@item.Id">Remove</a>
                                             </div>

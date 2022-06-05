@@ -50,5 +50,25 @@ namespace TaskNest.Areas.Manage.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult Edit(int id)
+        {
+            Category category = _context.Categories.FirstOrDefault(x => x.Id == id);
+            if (category == null) return NotFound();
+
+            return View(category);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Category category)
+        {
+            Category existCategory = _context.Categories.FirstOrDefault(x => x.Id == category.Id);
+            if (existCategory == null) return NotFound();
+
+            existCategory.Name = category.Name;
+            existCategory.Logo = category.Logo;
+            _context.SaveChanges();
+
+            return RedirectToAction("index");
+        }
     }
 }

@@ -120,7 +120,15 @@ namespace Nest.Controllers
             }
             Response.Cookies.Append("Basket", JsonConvert.SerializeObject(basketItems));
         }
-        
+        public IActionResult Remove(int id)
+        {
+            Product product = _context.Products.Find(id);
+            if (product == null) return NotFound();
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
 
     }
 }
